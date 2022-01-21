@@ -36,6 +36,7 @@
     "tailwindcss": ">=2.0.0"
   },
   "dependencies": {
+    "@luberius/fork-windmill-react-ui": "^0.0.1",
     "@tailwindcss/forms": "^0.4.0",
     "acorn": "8.7.0",
     "autoprefixer": "10.4.2",
