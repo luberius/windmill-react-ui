@@ -81,7 +81,7 @@ If you need pre Tailwind v2 support, go for 0.5.1.
 
 ### BREAKING CHANGES
 
-- **scope:** Use `@windmill/react-ui` to install the package as `windmill-react-ui` is deprecated.
+- **scope:** Use `@luberius/fork-windmill-react-ui` to install the package as `windmill-react-ui` is deprecated.
 
 # [0.2.0](https://github.com/estevanmaito/windmill-react-ui/compare/0.1.2...0.2.0) (2020-07-20)
 

@@ -12,7 +12,7 @@
   "scripts": {
     "prebuild": "rimraf dist lib && npm run build:lib && npm run build:ts",
     "build:ts": "tsc --declaration --declarationMap --emitDeclarationOnly",
-    "build:tailwind": "tailwindcss build style/tailwind.css -o style/output.css -c style/tailwind.config.js",
+    "build:tailwind": "tailwindcss build -i style/tailwind.css -o style/output.css -c style/tailwind.config.js",
     "build:lib": "babel src/themes/default.ts --out-file lib/defaultTheme.js",
     "build": "webpack",
     "predev": "npm run build:tailwind",
@@ -57,7 +57,7 @@
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",
     "@storybook/react": "^6.2.9",
-    "@svgr/webpack": "^6.2.0",
+    "@svgr/webpack": "^5.5.0",
     "@types/classnames": "^2.2.10",
     "@types/enzyme": "^3.10.5",
     "@types/jest": "^27.4.0",

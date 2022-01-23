@@ -162,8 +162,8 @@ const windmillConfig = {
   darkMode: 'class',
   purge: {
     content: [
-      'node_modules/@windmill/react-ui/lib/defaultTheme.js',
-      'node_modules/@windmill/react-ui/dist/index.js',
+      'node_modules/@luberius/fork-windmill-react-ui/lib/defaultTheme.js',
+      'node_modules/@luberius/fork-windmill-react-ui/dist/index.js',
     ],
   },
   theme: {
